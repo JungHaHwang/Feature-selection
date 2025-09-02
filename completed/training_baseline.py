@@ -5,6 +5,10 @@ import torch.optim as optim
 import numpy as np
 import gc
 from torch.utils.data import Dataset, DataLoader, random_split
+import os
+
+os.makedirs("./models", exist_ok=True)
+os.makedirs("./backbone_outputs", exist_ok=True)
 
 # dataset definition
 class MyDataset(Dataset):
