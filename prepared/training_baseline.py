@@ -136,7 +136,7 @@ num_epochs = 200   # maximum epochs
 
 count = 0
 label_saved = 0
-for repeat in range(1000):
+for repeat in range(200):
 
     if count == 50:
         print("model training is terminated")
