@@ -21,7 +21,6 @@ def resize_and_convert_to_grayscale(input_folder, output_folder, target_size=(22
             except Exception as e:
                 print(f"Error processing {filename}: {e}")
 
-# 예제 실행
 input_folder_list = ['./dataset_original/train/full',
                      './dataset_original/train/empty',
                      './dataset_original/test/full',
