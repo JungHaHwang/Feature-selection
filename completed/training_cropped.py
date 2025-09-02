@@ -136,8 +136,6 @@ def validate(model, val_loader, criterion, device):
 criterion = nn.CrossEntropyLoss()
 num_epochs = 200   # maximum epochs
 
-count = 0
-label_saved = 0
 for repeat in range(50):
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
